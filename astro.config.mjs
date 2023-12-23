@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://aoi.js.org",
+  site: "https://aoitr.js.org",
   integrations: [
     starlight({
       plugins: [starlightLinksValidator()],
@@ -88,14 +88,14 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Introduction",
+          label: "Giriş",
           link: "/guides/setup",
         },
         {
-          label: "Extensions",
+          label: "Eklentiler",
           items: [
             {
-              label: "Showcase",
+              label: "Vitrin",
               link: "/extensions/showcase/",
             },
             {
@@ -116,11 +116,11 @@ export default defineConfig({
                       link: "/extensions/aoimusic/",
                     },
                     {
-                      label: "Events",
+                      label: "Etkinlikler",
                       link: "/extensions/aoimusic/events",
                     },
                     {
-                      label: "Functions",
+                      label: "Fonksiyonlar",
                       autogenerate: {
                         directory: "extensions/aoi.music/functions",
                       },
@@ -132,7 +132,7 @@ export default defineConfig({
               ],
             },
             {
-              label: "Community Extensions",
+              label: "Topluluk Eklentileri",
               items: [
                 {
                   label: "aoi.canvas",
@@ -152,24 +152,24 @@ export default defineConfig({
           collapsed: true,
         },
         {
-          label: "Guides",
+          label: "Rehberler",
           items: [
             {
-              label: "Application Commands",
+              label: "Uygulama Komutları",
               autogenerate: {
                 directory: "guides/application-cmds",
               },
               collapsed: true,
             },
             {
-              label: "Client",
+              label: "Bot",
               autogenerate: {
                 directory: "guides/client",
               },
               collapsed: true,
             },
             {
-              label: "Other",
+              label: "Diğer",
               autogenerate: {
                 directory: "guides/other",
               },
@@ -178,7 +178,7 @@ export default defineConfig({
           ],
         },
         {
-          label: "Functions",
+          label: "Fonksiyonlar",
           items: [
             {
               label: "Array",
@@ -188,84 +188,84 @@ export default defineConfig({
               collapsed: true,
             },
             {
-              label: "Awaited",
+              label: "Bekleme",
               autogenerate: {
                 directory: "functions/awaited-related",
               },
               collapsed: true,
             },
             {
-              label: "Client",
+              label: "Bot",
               autogenerate: {
                 directory: "functions/client-related",
               },
               collapsed: true,
             },
             {
-              label: "Event",
+              label: "Etkinlik",
               autogenerate: {
                 directory: "functions/event-related",
               },
               collapsed: true,
             },
             {
-              label: "Guild",
+              label: "Sunucu",
               autogenerate: {
                 directory: "functions/guild-related",
               },
               collapsed: true,
             },
             {
-              label: "Info",
+              label: "Bilgi",
               autogenerate: {
                 directory: "functions/info-related",
               },
               collapsed: true,
             },
             {
-              label: "Interaction",
+              label: "Etkileşim",
               autogenerate: {
                 directory: "functions/interaction-related",
               },
               collapsed: true,
             },
             {
-              label: "Math",
+              label: "Matematik",
               autogenerate: {
                 directory: "functions/math-related",
               },
               collapsed: true,
             },
             {
-              label: "Message",
+              label: "Mesaj",
               autogenerate: {
                 directory: "functions/message-related",
               },
               collapsed: true,
             },
             {
-              label: "Misc",
+              label: "Çeşitli",
               autogenerate: {
                 directory: "functions/misc-related",
               },
               collapsed: true,
             },
             {
-              label: "User",
+              label: "Kullanıcı",
               autogenerate: {
                 directory: "functions/user-related",
               },
               collapsed: true,
             },
             {
-              label: "Util",
+              label: "Yardımcı",
               autogenerate: {
                 directory: "functions/util-related",
               },
               collapsed: true,
             },
             {
-              label: "Database/Variable",
+              label: "Veritabanı/Degişkenler",
               autogenerate: {
                 directory: "functions/database-related",
               },
